@@ -1,0 +1,366 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html {
+	position: relative;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+body { 
+	background-color: rgb(219,205,140);
+	position: relative;
+	height: 100%;
+	min-height: 600px;
+	top: 0;
+	left: 0;
+}
+ul,li,h1,h2,h3,h4,p,a {
+	color: white;
+	font-family: "Trebuchet MS",Trebuchet MS,Sans-Serif;
+}
+h1 {
+	margin: 5px;
+	position: relative;
+
+}
+
+div#main {
+	position: relative;
+	background: url(images/back.jpg) no-repeat top left;
+	background-attachment: scroll;
+	width: 98%;
+	height: 97%;
+	max-height: 1000px;
+	min-height: 570px;
+	min-width: 1000px;
+	margin: 1%;
+	border: solid;
+	overflow: hidden;
+}
+div#svg { 
+	position: relative;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	width: 100%;
+
+}
+span#title {
+	float: left;
+	display: block;
+	margin-left: 10px;
+	width: 45%;
+	max-width: 509px;
+}
+img {
+	float: left;
+	clear: left;
+	line-height: 0;
+}
+img.title {
+	cursor: pointer;
+	width: 100%;
+}
+span#menu {
+	position: relative;
+	margin-top: 244px;
+	margin-left: 160px;
+	display: block;
+}
+img.menu {
+	position: relative;
+	margin: 10px;
+	opacity: 0.7;
+	cursor:pointer;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+
+}
+img.menu:hover {
+	-webkit-transform:translate(20px,0px);
+	-moz-transform:translate(20px,0px);
+	-o-transform:translate(20px,0px);
+	transform:translate(20px,0px);
+	opacity: 1.0;
+}
+img#goals {
+	margin-top: 2px;
+}
+img#dist {
+	margin-top: 5px;
+}
+img#donate {
+	margin-top: 18px;
+}
+div#content {
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	margin: 1%;
+	width: 45%;
+	height: 96%;
+	min-height: 538px;
+	border: solid;
+	border-color: rgb(0,131,211);
+	background-color: black;
+	background-color: rgba(0,0,0,0.8);
+	float: right;
+	clear: right;
+	overflow: auto;
+}
+span#four {
+	width: 100%;
+	float: right;
+}
+div#four {
+	width: 100%;
+	position: relative;
+	display: block;
+}
+div#four>h4 {
+	display: block;
+	margin: 5px;
+	font-size: 14pt;
+}
+ul {
+	position: relative;
+	margin-top: 0;
+}
+li {
+	position: relative;
+}
+span#blog {
+	position: relative;
+	float: right;
+	width: 100%;
+	height: 50%;
+}
+div#blog {
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 98%;
+	background-color: rgb(185,219,244);
+	margin: 1%;
+	border-radius: 10px;
+	height: 100%;
+	overflow: auto;
+}
+h3 {
+	display: inline-block;
+	margin: 10px;
+	margin-top: 0;
+	font-size: 20pt;
+}
+h3#titlepost {
+	float: left;
+	color: rgb(85,114,135);
+}
+h3#datepost {
+	float:  right;
+	color: rgb(85,114,135);
+}
+div.post {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+div.post>p {
+	color: rgb(85,114,135);
+	float: left;
+	margin: 10px;
+	clear: left;
+	text-align: justify;
+}
+span#contTitle {
+	float: right;
+	width: 100%;
+}
+div#bio {
+	position: relative;
+	display: block;
+	float: right;
+	height: 88%;
+	width: 98%;
+	margin: 1%;
+	overflow: auto;
+	text-align: center;
+
+}
+div#bio>ul {
+	position: relative;
+	display: block;
+	margin: 10px;
+	font-size: 12pt;
+}
+div#bio>h3 {
+	position: relative;
+	display: block;
+	margin-bottom: 0;
+}
+div#bio>h4 {
+	margin-bottom: 10px;
+}
+div#bio>ul>li {
+	position: relative;
+	margin-left: 40px;
+}
+form>p {
+	float: left;
+	clear: left;
+	color: black;
+}
+div.form {
+	position: relative;
+	float: left;
+	display: block;
+}
+div.posts {
+	float: left;
+	border: solid;
+}
+textarea, input {
+	position: relative;
+	float: left;
+	clear: left;
+	display: block;
+}
+textarea {
+	width: 500px;
+	height: 400px;
+}
+div#map_canvas {
+	margin: 2%;
+	position: relative;
+	display: inline-block;
+	width: 90%;
+	height: 100%;
+	overflow:auto;
+}
+div#submit {
+	position: relative;
+	display: block;
+	text-align: center;
+	border: solid;
+	background-color: rgb(185,219,244);
+	border-color:  rgb(85,114,135);
+	cursor: pointer;
+}
+div#submit>p {
+	color: rgb(85,114,135);
+	cursor: pointer;
+	margin: 5px;
+}
+span#mapcont {
+	overflow: auto;
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 100%;
+	height: 85%;
+	text-align: center;
+}
+span#input {
+	position: relative;
+	width: 100%;
+	float: left;
+	text-align: center;
+	display: inline-block;
+}
+span#input>input {
+	margin: 10px;
+	position: relative;
+	float: none;
+	display: inline-block;
+	width: 150px;
+	height: 25px;
+}
+p#label {
+	position: relative;
+	display: inline-block;
+}
+img.head {
+	position: relative;
+	display: inline;
+	float: right;
+	margin: 50px;
+}
+span#languages {
+	float: left;
+	position: relative;
+	display: block;
+	margin-left: 10px;
+}
+div.langbutt {
+	position: relative;
+	display: inline;
+	float: left;
+	background-color: rgb(0,131,211);
+	border: solid;
+	border-width: 4px;
+	margin: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+div.langbutt>p {
+	position: relative;
+	display: block;
+	float: left;
+	margin: 10px;
+	color: rgb(185,219,244);
+	font-size: 14pt;
+	cursor: pointer;
+
+}
+span#intro {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+}
+iframe {
+	position: relative;
+	display: inline-block;
+	width: 98%;
+}
+span.img {
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+span.img>img {
+	max-width: 90%;
+	position: relative;
+	display: inline-block;
+	float: none;
+	clear: none;
+	margin: 10px;
+	border: solid;
+	border-color: rgb(0,131,211);
+}
+span#button {
+	float: right;
+	width: 100%;
+	text-align: center;
+}
+span#button>form>input {
+	float: none;
+	clear: none;
+	display: inline-block;
+}
+span#button>form {
+	float: right;
+	width: 100%;
+	clear: none;
+}
+
+
+
+
+

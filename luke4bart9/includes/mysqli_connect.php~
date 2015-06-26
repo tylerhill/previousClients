@@ -1,0 +1,9 @@
+<?php # mysqli_connect.php
+	DEFINE ('DB_USER', 'dbo402171057');
+	DEFINE ('DB_PASSWORD','4hill44hill4');
+	DEFINE ('DB_HOST', 'db402171057.db.1and1.com');
+	DEFINE ('DB_NAME', 'db402171057');
+
+	$dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die ('this did not work' . mysqli_connect_error() );
+?>
+	
