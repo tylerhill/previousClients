@@ -1,0 +1,32 @@
+<?php # loggedin.php 
+	session_start();
+
+	if(!isset($_SESSION['user_id'])) {
+		require_once('includes/login_functions.inc.php');
+		$url=absolute_url();
+		header("Location: $url");
+		exit();
+	}
+
+	$page_title = 'Logged In!';
+	echo '
+		<html>
+			<head>
+				<title>Admin Page</title>
+			</head>
+			<body>';
+	include('upload_image.php');
+	echo "
+		<form enctype='multipart/form-data' action='upload_image.php' method='POST'>
+			<input type='hidden' name='max_file_size' value='524288'>
+				<fieldset><legend>Select .jpg or .png, 2mb or smaller</legend>
+				<p>Image<input type='file' name='upload' /></p>
+				<p>Caption<input type='text' name='caption' /></p>
+				</fieldset>
+			<input type='submit' name='submit' value='Submit' />
+			<input type='hidden' name='submitted' value='TRUE' />
+		</form>
+		<a href='index.php'>see home</a>
+	</body>
+</html>";
+?>

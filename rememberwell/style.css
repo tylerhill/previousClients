@@ -1,0 +1,1053 @@
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+}
+body {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: rgb(230,236,243);
+	font-family: "Arial",Arial, Sans-serif;
+	display: block;
+}
+div {
+	
+}
+div.col {
+	width: 250px;
+	float: left;
+	margin: 5px;
+	margin-top: 35px;
+	margin-bottom: 0px;
+	display: block;
+}
+
+figure {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 5px;
+	background-color: white;
+	border-radius: 5px;
+	display: block;
+	border: solid;	
+	border-color: rgb(141,177,209);
+	border-width: 0px;
+}
+img.post {
+	float: left;
+	clear: left;
+	margin: 10px;
+	max-width: 230px;
+	position: relative;
+	z-index: 1;
+	display: inline;
+	vertical-align: top;
+}
+p.cap {
+	text-align: left;
+	font-size: 10px;
+	color: #666;
+	margin: 10px;
+	float: left;
+	clear: left;
+	max-width: 220px;
+}
+p.tags {
+	position: relative;
+	display: block;
+	float: left;
+	margin-top: 0px;
+	font-size: 11px;
+	clear: left;
+	margin: 10px;
+	width: 90%;
+}
+span.tags {
+	float: left;
+	width: 230px;
+	margin: 10px;
+
+}
+a.tag {
+	font-size: 11px;
+	color: rgb(100,100,100);
+	text-decoration: none;
+}
+span.found {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+div.resc {
+	background-color: white;
+	position: relative;
+	display: block;	
+	width: 50%;
+	margin: 10px;
+	margin-top: 40px;
+	border-radius: 5px;
+	font-size: 10pt;
+	color: #666;
+	float: left;
+}
+span.reschead {
+	float: left;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+span.reschead>img.hovericon{
+	vertical-align: top;
+	margin: 0;
+}
+span.reschead>span.hover{
+	margin-top: 0;
+	display: block;
+	clear: none;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+div.hover {
+	position: relative;
+	display: block;
+	font-size: 0;
+	float: none;
+}
+span.video {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+span.video>a {
+	color: rgb(100,100,100);
+}
+span.reschead>iframe {
+	margin-top: 50px;
+	
+}
+div.resc>h2 {
+	font-size: 14pt;
+}
+p.resc {
+	margin: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+	float: left;
+	font-size: 10pt;
+	line-height: 20px;
+}
+p.resc>a {
+	color: rgb(100,100,100);
+}
+div.resc>a {
+	float: left;
+	clear: left;
+	margin: 10px;
+	color: rgb(100,100,100);
+}
+h2 {
+	margin: 10px;
+	font-size: 12px;
+	color: #666;
+
+}
+img.edit {
+	max-width: 250px;
+	display: inline;
+}
+fieldset.post{
+	max-width: 250px;
+	display: inline;
+	margin: 10px;
+	background-color: white;
+	float: left;
+}
+div.home {
+	background-color: white;
+	border: solid;
+	border-width: 2px;
+	border-color: rgb(141,177,209);
+	position: relative;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+}
+div.home>p {
+	color: rgb(169,0,111);
+	font-weight: bold;
+}
+a.home {
+	text-decoration: none;
+}
+
+
+
+
+fieldset.upload {
+	display: inline;
+	float: left;
+	width: 99%;
+	padding-left: 25px;
+}
+fieldset.upload>p {
+	float: left;
+	font-size: 10pt;
+}
+p.maincap {
+       font-size: 10px;
+       position: relative;
+}       
+input.maintext {
+	position: relative;
+	bottom: 50px;
+}
+input.tag {
+	float: left;
+	margin: 3px;
+}
+div.tags {
+	margin-top: 50px;
+	float: right;
+	width: 60%;
+	display: inline;
+}
+div.edittags {
+	position: relative;
+	float: right;
+	display: block;
+	clear: right;
+	width: 60%;
+}
+div.imgupload {
+	position: relative;
+	float: left;
+	display: block;
+}
+p.video {
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	padding: 5px;
+}
+p.video>input {
+	margin-left: 20px;
+}
+
+fieldset.edit {
+	margin-left: 25px;
+}
+form.edit>input {
+	width: 250px;
+}
+div.edittext {
+	position: relative;
+	float: left;
+	clear: left;
+	display: block;
+}
+div.editimgupload {
+	margin: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+
+	float: left;
+	clear: left;
+}
+div.editsave {
+	float: right;
+	height: 35px;
+	margin: 5px;
+	margin-right: 100px;
+	margin-top: 100px;
+	background-color: white;
+	border: solid;
+	border-width: 2px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+}
+div.editsave>p {
+	line-height: 35px;
+
+}
+
+div.maintags {
+	position: relative;;
+	float: right;
+	margin-right: 350px;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	width: 375px;
+}
+div.editmaintags {
+	position: relative;
+	display: block;
+	float: left;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+
+}
+div.editmaintags>p{
+	float: left;
+	clear: left;
+}
+div.maintags>p {
+	display: inline;
+	float: left;
+	margin: 3px;
+}
+span.tagcol1 {
+	float: left;
+}
+span.tagcol2 {
+	float: left;
+}
+span.tagcol3 {
+	float: left;
+}
+span.tagcol4 {
+	float: left;
+}
+p.sub {
+	margin: 3px;
+	float: left;
+	clear: left;
+}
+span.submit {
+	float: left;
+	clear: left;
+	margin-left: 25px;
+}
+
+
+a.resc {
+	float: left;
+	clear: left;
+	margin: 5px;
+	font-size: 10px;
+	text-decoration: none;
+	color: #903;
+}
+span.img1 {
+	float: right;
+	width: 50%;
+}
+img.bodyimg1 {
+	width: 100%;
+	float: right;
+	clear: right;
+}
+span.img2 {
+	float: left;
+	width: 50%;
+}
+img.bodyimg2 {
+	width: 100%;
+	float: left;
+	clear: left;
+}
+span.posts {
+	width: 100%;
+	display: inline;
+}
+a.uploads {
+	position: absolute;
+}
+nav {
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	width: 100%;
+	margin: 5px;
+	overflow: hidden;
+}
+nav.accountcreate {
+	width: 250px;
+	margin: 10px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+h4 {
+	margin: 8px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+nav>a {
+	float: left;
+	text-decoration: none;
+	color: rgb(85,85,85);
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	border-bottom: solid 1px;
+}
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-weight: 0px;
+	border-color: rgb(85,85,85);
+	background-color: rgb(85,85,85);
+}
+section.happenings {
+	margin: 20px;
+	margin-top: 40px;
+	background-color: white;
+
+	float: left;
+	border-radius: 5px;
+	text-align: center;	
+	font-size: 10px;
+	color: #666;
+	display: block;
+}
+section.happenings>iframe {
+	float: left;
+	margin: 10px;
+}
+section.happenings>p {
+	text-align: left;
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 5px;
+}
+p.happen {
+	font-weight: bold;
+	font-size: 10pt;
+}
+a.happen{
+	position: relative;
+	text-align: left;
+}
+div.under {
+	position: relative; 
+	margin-top: 460px;
+}
+h3 {
+	color: rgb(169,0,111);
+	font-size: 10pt;
+	padding-top: 5px;
+	margin: 5px;
+}
+section.news {
+	float: left;
+	width: 100%;
+	background-color: white;
+	margin: 5px;
+	font-size: 10px;
+	color: #666;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	border-radius: 5px;
+}
+section.news>h3 {
+	margin: 5px;
+}
+img.logo {
+	float: left;
+	height: 90%;
+	margin: 2px;
+	margin-left: 12px;
+}
+div.header {
+	background-color: white;
+	height: 36px;
+	display: inline;
+	width: 100%;
+	float: left;
+	box-shadow: 0px 5px 5px rgb(85,85,85);
+}
+div.header>p{
+	float: left;
+	line-height: 36px;
+	font-size: 10pt;
+	margin-left: 40px;
+}
+a.logo {
+	color: black;
+	text-decoration: none;
+}
+a.admin {
+	text-decoration: none;
+	color: rgb(169,0,111);
+	font-weight: bold;
+	line-height: 36px;
+	float: right;
+	margin-right: 100px;
+}
+
+a.logo>h2 {
+	float: left;
+	font-family: Times, "Times", Serif;
+	color: black;
+	font-weight: normal;
+	font-size: 14pt;
+}
+input.search {
+	float: right;
+	clear: right;
+	background-color: rgb(230,236,243);
+	position: relative;
+	right: 22px;
+	bottom: 32px;
+	border: none;
+	padding: 6px;
+}
+span.login {
+	text-align: center;
+	float: right;
+	margin-right: 190px;
+	border-right: solid;
+	border-left: solid;
+	border-width: 1px;
+	padding-left: 10px;
+	padding-right:	10px;
+	padding-top: 2px;
+	font-size: 10pt;
+	height: 100%;
+	border-color: rgb(100,100,100);
+	color: rgb(100,100,100);
+}
+span.login>a {
+	font-size: 7pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 10px;
+	display: block;
+	text-decoration: none;
+	color: rgb(100,100,100);
+}
+span.forgot {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+}
+span.forgot>a {
+	color: rgb(100,100,100);
+	margin-bottom: 10px;
+	font-size: 10pt;
+	margin-left: 26.5%;
+}
+div.password{
+	position: relative;
+	display: inline;
+}
+h1.title {
+	float: left;
+	font-family: "Times", Times, Serif;
+	font-size: 18pt;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+img.social {
+	margin: 5px;
+	float: left;
+	
+}
+span.social {
+	width: 100%;
+	float: left;
+	padding-left: 3px;
+	display: inline;
+	text-align: center;
+}
+span.social>a {
+	text-decoration: none;
+}
+img.news {
+	margin: 10px;
+	margin-bottom: 15px;
+	float: center;
+	max-width: 230px;
+}
+p.news {
+	float: left;
+	margin: 10px;
+	text-align: left;
+	max-width: 230px;
+}
+img.happen {
+	width: 100px;
+	float: left;
+	margin: 5px;
+}
+span.head {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+img.head {
+	max-width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+section.account {
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 40px;
+	width: 50%;
+	color: rgb(100,100,100);
+	font-size: 12pt;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+section.account>h2 {
+	font-size: 14pt;
+}
+h3.createaccount{
+	color: rgb(100,100,100);
+	float: left;
+}
+h3.loginaccount{
+	position: relative;
+	display: inline;
+	color: rgb(100,100,100);
+}
+
+
+span.create {
+	padding-top: 20px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	margin-bottom: 10px;
+}
+span.loginuser {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+span.loginuser>p {
+	margin-top: 10px;
+}
+span.loginuser>a {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	color: rgb(100,100,100);
+}
+form.createuser {
+	position: relative;
+	display: block;
+	float: left;
+}
+div.labels {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+div.labels>p {
+	float: left;
+	clear: left;
+	margin: 5px;
+	margin-left: 0;
+	line-height: 19px;
+}
+div#loginuser>p {
+	margin-right: 65px;
+}
+div.inputs {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+}
+form.createuser>input.create {
+	position: relative;
+	display: block;
+	background-color: rgb(230,236,243);
+	margin: 5px;
+	border: none;
+	float: left;
+	clear: left;
+	padding: 2px;
+	width: 220px;
+}
+form.createuser>input.submit {
+	float: right;
+	position: relative;
+	display: block;
+	margin: 10px;
+}
+span.logininputs>p>input.loginuser {
+	background-color: rgb(230,236,243);
+	margin: 5px;
+	border: none;
+	position: relative;
+	padding: 2px;
+	width: 25%;
+}
+span.logininputs {
+	position: relative;
+	display: block;
+}
+span.logininputs>a {
+	color: rgb(100,100,100);
+	font-size: 10pt;
+}
+span.logininputs>p {
+	display: inline;
+}
+div.password>p {
+	display: inline;
+}
+div.password>a {
+	position: relative;
+}
+form.loginuser>p {
+	position: relative;
+	display: inline;
+	margin: 5px;
+}
+form.loginuser>input.loginuser {	
+	float: right;
+	position: relative;
+	background-color: rgb(230,236,243);
+	margin: 5px;
+	border: none;
+	position: relative;
+	padding: 2px;
+	width: 220px;
+
+}
+form.loginuser>input.submit {
+	float: right;
+	position: relative;
+	display: block;
+}
+div.loginuser {
+	position: relative;
+	display: inline-block;
+}
+	
+
+section.related {
+	background-color: white;
+	border-radius: 5px;
+	float: left;
+	margin-top: 40px;
+	width: 17%;
+	padding-bottom: 10px;
+}
+section.related>h3 {
+	margin: 7px;
+}
+section.related>p.tags {
+	margin: 10px;
+}
+div.clip {
+	height: 28px;
+	width: 28px;
+	overflow: hidden;
+	margin: 5px;
+	float: left;
+	border-radius: 5px;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(100,100,100);
+}
+span.related {
+	float: left;
+}
+span.related>p {
+	float: left;
+	clear: left;
+	font-size: 10pt;
+}
+span.hover {
+	position: absolute;
+	margin-top: 10px;
+	left: 0;
+	float: left;
+	clear: left;
+	width: 100%;
+	z-index: 2;
+	vertical-align: top;
+	display: inline;
+}
+img.hovericon {
+	opacity: 0.5;
+	cursor: pointer;
+	position: relative;
+	font-size: 0;
+	
+}
+img.hovericon:hover {
+	opacity: 1.0;
+}
+h3.saved {
+	float: left;
+	clear: left;
+	margin: 5px;
+	position: relative;
+}
+span.post {
+	position: relative;
+	float: left;
+	width: 100%;
+	vertical-align: top;
+	display: inline;
+}
+figure.face {
+	width: 250px;
+	float: left;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+
+}
+span.findresccenter {
+	float: left;
+	position: relative;
+	width: 86%;
+	margin-top: 40px;
+}
+span.findresccenter>nav{
+	margin-top: 0;
+}
+section.selecttags {
+	position: relative;
+	width: 69%;
+	padding-left: 5px;
+}
+div.navcont {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 250px;
+	margin-right: 10px;
+}
+span.foundresc {
+	float: left;
+	margin: 10px;
+}
+p.findtag {
+	float: left;
+	position: relative;
+	display: inline;
+	margin: 5px;
+	line-height: 20px;
+	font-size: 10pt;
+	color: rgb(100,100,100);
+	cursor: pointer;
+}
+p.clicked {
+
+}
+p.cancel {
+	margin: 10px;
+	font-size: 11pt;
+}
+span.thankyou {
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	text-align: center;
+	float: left;
+	width: 100%; 
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+p.disclaimer {
+	margin: 5px;
+	color: rgb(100,100,100);
+	font-size: 10px;
+}
+span.notes {
+	float: left;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+div.postnote>textarea {
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	background-color: rgb(230,236,243);
+	width: 230px;
+	float: none;
+	margin-top: 5px;
+}
+div.postnote>input {
+	float: right;
+	margin: 10px;
+}
+div.submitnote,div.submitshare {
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 10pt;
+	border-radius: 3px;
+	text-align: center;
+}
+div.submitnote>p,div.submitshare>p {
+	line-height: 20px;
+
+}
+img.delnote {
+	position: relative;
+	display: block;
+	float: right;
+	cursor: pointer;	
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+}
+p.sig {
+	position: relative;
+	display: inline;
+	text-align: right;
+	width: 100%;
+	font-size: 10pt;
+	color: rgb(100,100,100);
+	float: right;
+	margin-right: 10px;
+}
+p.note {
+	position: relative;
+	display: inline;
+	width: 100%;
+	float: left;
+}
+div.notes>p {
+	font-size: 10px;
+	color: rgb(100,100,100);
+}
+span.note {
+	float: left;
+	width: 100%;
+	font-size: 10pt;
+}
+span.share {
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+span.share>p {
+	position: relative;
+	display: block;
+	font-size: 12px;
+}
+div.share {
+	text-align: center;
+}
+div.share>h3 {
+	float: left;
+	margin: 10px;
+}
+div.share>input {
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	background-color: rgb(230,236,243);
+	width: 230px;
+	float: none;
+	margin-top: 5px;
+}
+span.sharemail>h3 {
+	position: relative;
+	display: inline;
+	float: none;
+}
+span.sharemail>input {
+	position: relative;
+	display: inline;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	background-color: rgb(230,236,243);
+	width: 230px;
+	margin-top: 5px;
+}
+span.frommail>h3 {
+	position: relative;
+	display: inline;
+	float: none;
+}
+span.frommail>input {
+	position: relative;
+	display: inline;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	background-color: rgb(230,236,243);
+	width: 230px;
+	margin-top: 5px;
+}
+div.paypal {
+	margin: 10px;
+}
+div.paypal>form>input {
+	margin-top: 5px;
+}
+span.req {
+	float: left;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+}
+span.req>p {
+	font-size: 10pt;
+	color: rgb(100,100,100);
+	margin: 5px;
+}
+span.approve {
+	position: relative;
+	float: left;
+	display: inline-block;
+	height: 20px;
+	width: 90px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 11pt;
+	border-radius: 3px;
+	text-align: center;
+}
+span.deny {
+	position: relative;
+	display: inline-block;
+	float: right;
+	height: 20px;
+	width: 90px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 11pt;
+	border-radius: 3px;
+	text-align: center;
+}
+span.deny>p,span.approve>p {
+	line-height: 20px;
+}

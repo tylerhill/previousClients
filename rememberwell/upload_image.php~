@@ -1,0 +1,19 @@
+<?php
+include('includes/mysqli_connect.php');
+$uploaddir = "../uploads/";
+$uploadfile = $uploaddir . basename($_FILES['upload']['name']);
+if (move_uploaded_file($_FILES['upload']['tmp_name'], $uploadfile)) {
+	$src = "uploads/{$_FILES['upload']['name']}";
+	$cap = $_POST['caption'];
+	$q = "INSERT INTO posts (img, caption)
+		VALUES ('$src','$cap')";
+	$r = @mysqli_query($dbc,$q);
+	echo '<p>yeah!</p>';
+	echo "<a href='loggedin.php'>back</a>";
+	echo '<br />';
+
+} else {
+	echo 'naw.';
+}
+print_r($_FILES);
+?>

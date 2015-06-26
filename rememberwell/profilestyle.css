@@ -1,0 +1,980 @@
+section {
+	float: left;
+	display: inline;
+	border-radius: 5px;
+	background-color: white;
+	border-radius: 5px;
+}
+section>a {
+	color: rgb(100,100,100);
+	text-decoration: none;
+	font-size: 10pt;
+	margin: 5px;
+}
+section.memfacts {
+	margin-top: 5px;
+	float: left;
+	clear: left;
+	text-align: center;
+	font-size: 10px;
+	width:35%;
+}
+form.memcreate {
+	float: left;
+	width: 100%;
+}
+span.memcreate {
+	float: left;
+	width: 100%;
+}
+span.fact>input {
+	float: right;
+	clear: right;
+	position: relative;
+	display: inline;
+	height: 20px;
+	width: 50%;
+	line-height: 20px;
+	margin-right: 5px;
+}
+span.fact>label {
+	text-align: left;
+	margin-left: 5px;
+	position: relative;
+	display: inline;
+	line-height: 20px;
+	float: left;
+	clear: none;
+	width: 75px;
+}
+div.birthdate {
+	float: right;
+}
+div.deathdate {
+	float: right;
+}
+
+
+
+section.memimgs {
+	position: relative;
+	display: block;
+	width: 770px;
+}
+
+form.imgupload {
+	float: left;
+}
+label {
+	float: left;
+	clear: left;
+}
+input {
+	float: left;
+	clear: left;
+}
+textarea {
+	float: left;
+	clear: left;
+}
+select {
+	float: right;
+	line-height: 20px;
+
+}
+option {
+}
+
+select#birthmonth,select#deathmonth {
+}
+section.memorials {
+	float: left;
+	padding-bottom: 5px;
+	width: 100%;
+
+}
+section.memorials>p>a {
+	text-decoration: none;
+	font-size: 10pt;
+	margin: 5px;
+}
+a.mem {
+	color: rgb(100,100,100);
+}
+
+a.edit {
+	font-weight: bold;
+	color: rgb(153,0,51);
+}
+section.memorials>p {
+	font-size: 10pt;
+	color: #903;
+	margin: 5px;
+}
+a.home {
+	float: left;
+	clear: left;
+}
+section.stats {
+	background-color: white;
+	width: 100%;
+	height: 150px;
+	float: left;
+	margin-bottom: 10px;
+}
+section.stats>p {
+	margin: 10px;
+}
+a.newmem {
+	font-weight: bold;
+	float: right;
+	clear: right;
+}
+a.back {
+	float: left;
+	clear: left;
+	margin: 10px;
+}
+div.memcenter {
+	margin-top: 5px;
+	float: right;
+	width: 67.5%;
+}
+div.editcenter {
+	position: relative;
+	float: right;
+	width: 63.5%;
+}
+section.facts {
+	float: left;
+	clear: left;
+	font-size: 10pt;
+	color: rgb(100,100,100);
+	margin-top: 5px;
+	width: 31%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+p.fact {
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+	
+p.key {
+	font-weight: bold;
+	margin: 10px;
+}
+section.guestbook {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+section.guestbook>a {
+	float: right;
+	margin: 10px;
+}
+h3.memorial {
+	margin: 10px;
+	float: left;
+}
+img.memimg {
+	max-width: 90%;
+	margin: 10px;
+}
+p.memcap {
+	color: rgb(100,100,100);
+	margin: 5px;
+}
+section.memimgupload {
+	position: relative;
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+	float: left;
+		
+}
+div.imgupload {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+div.imgupload>*{
+	margin: 5px;
+}
+div.currentimgs {
+	float: left;
+	width: 100%;
+}
+div.currentimgs>h3 {
+	margin: 5px;
+
+}
+div.currentimg {
+	margin: 10px;
+	float: left;
+}
+img.memimgedit {
+	float: left;
+	max-width: 250px;
+}
+img.profilepic {
+	max-width: 230px;
+	width: 95%;
+}
+span.memimgs {
+	float: left;
+	clear: left;
+	width: 100%;
+	text-align: center;
+}
+figure {
+	width: 250px;
+	float: left;
+}
+div.left {
+	float: left;
+	clear: left;
+	width: 350px;
+}
+div.userhomeleft {
+	float: left;
+	width: 18.15%;
+	margin: 15px;
+}
+span.favorites {
+	margin-top: 10px;
+	float: right;
+	clear: right;
+	width: 78%;
+
+}
+span.favorites>div {
+	margin-top: 0px;
+}
+section.edit {
+	float: left;
+	margin-left: 20px;
+}
+span.guestbook {
+	margin-top: 20px;
+	float: left;
+	width: 50%;
+}
+span.signbook {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+form.sign>textarea {
+	float: none;
+	width: 90%;
+	height: 200px;
+}
+form.sign {
+	position: relative;
+	display: block;
+}
+form.sign>input, form.sign>textarea {
+	background-color: rgb(230,236,243);
+	margin-top: 5px;
+	border: none;
+}
+form.sign>input.submit {
+	float: right;
+	margin-right: 9%;
+	margin-top: 5px;
+	padding: 3px;
+	width: 50px;
+}
+form.sign>label {
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+span.msgimg {
+	text-align: center;
+	display: inline-block;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: 1px;	
+}
+p.msg {
+	margin: 10px;
+	text-align: justify;
+	font-size: 10pt;
+}
+p.sig {
+	font-size: 10pt;
+	color: rgb(100,100,100);
+	float: right;
+	clear: right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+section.headerimg {
+	margin-top: 20px;
+	width: 100%;
+	height: 243px;
+}
+span.headerimg {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+div.curheader {
+	position: relative;
+	float: left;
+	width: 70%;
+	height: 299px;
+	margin: 10px;
+	margin-right: 0px;
+	line-height: 299px;
+}
+div.curheaderimg {
+	position: relative;
+	display: block;
+	float: left;
+	line-height: 100%;
+}
+h1.editheadname {
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+	color: white;
+	font-size: 24pt;
+	text-shadow: 2px 2px 2px #000;
+}
+h1.preheadname {
+	position: absolute;
+	float: left;
+	left: 6%;
+	bottom: 15%;
+	text-align: left;
+	color: white;
+	font-size: 2em;
+	text-shadow: 2px 2px 2px #000;
+	line-height: 0px;
+}
+div.chooseheader {
+	margin: 10px;
+	width: 25%;
+	float: right;
+	clear: right;
+	position: relative;
+	display: block;
+	display: none;
+	overflow: scroll;
+}
+img.curheader {
+	width: 100%;
+	float: left;
+	max-width: 1032px;
+	position: relative;
+	vertical-align: middle;
+}
+img.headthumb {
+	width: 90%;
+	position: relative;
+	display: block;
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 3px;
+
+
+}
+img.headthumb:hover {
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	padding: 2px;
+}
+section.about {
+	width: 770px;
+	margin-top: 40px;
+	margin-left: 10px;
+	padding: 20px;
+}
+section.about>p {
+	font-size: 10pt;
+	color: rgb(100,100,100);
+}
+section.about>div {
+	font-size: 10pt;
+	color: rgb(100,100,100);
+}
+section.about>h3 {
+	margin: 0;
+}
+img.aboutheader {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+section.savepublish {
+	position: relative;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+}
+p.direction{
+	color: rgb(100,100,100);
+	font-size: 10pt;
+	margin-bottom: 5px;
+}
+div.creatememorial {
+	position: relative;
+	display: inline-block;
+	height: 20px;
+	width: 70px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 11pt;
+	border-radius: 3px;
+}
+div.contrib {
+	position: relative;
+	float: right;
+	display: inline-block;
+	height: 20px;
+	width: 140px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 11pt;
+	border-radius: 3px;
+}
+
+
+div.deletememorial {
+	position: relative;
+	display: inline-block;
+	height: 20px;
+	width: 70px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 11pt;
+	border-radius: 3px;
+}
+div.previewmemorial {
+	position: relative;
+	display: inline-block;
+	height: 20px;
+	width: 70px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 11pt;
+	border-radius: 3px;
+}
+
+
+div.creatememorial>p, div.previewmemorial>p, div.contrib>p {
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+	line-height: 20px;
+}
+div.deletememorial>a {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	line-height: 20px;
+	font-size: 11pt;
+}
+section.profilepic {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+}
+div.memlabels {
+	float: left;
+	position: relative;
+	display: block;
+	clear: left;
+}
+div.memlabels>label {
+	line-height: 18px;
+	margin: 3px;
+}
+div.meminputs {
+	padding-top:3px;
+	padding-left:3px;
+	float: right;
+}
+div.meminputs>input {
+	margin: 3px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+img.memheader {
+	margin: 10px;
+	width: 97%;
+}
+section.headimg {
+	position: relative;
+	width: 55%;
+	text-align: center;
+	margin: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+span.bio {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+span.bio>textarea{
+	width: 98%;
+	float: none; 
+	clear: none;
+}
+textarea#achievements {
+	float: none;
+	clear: none;
+	width: 97%;
+	min-height: 150px;
+}
+section.editbio {
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 200px;
+	margin-top: 5px;
+	float: left;
+	padding-bottom: 5px;
+}
+section.editbio>h3 {
+	margin: 5px;
+	float: left;
+}
+textarea#bio {
+	float: none;
+	clear: none;
+	width: 98%;
+	height: 85%;
+}
+span.bio>h3 {
+	float: left;
+	margin: 5px;
+}
+span.profilepic {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	display: block;
+	float: left;
+}
+span.profilepic>h3 {
+	float: left;
+	margin: 5px;
+}
+div.makeprofpic,div.addcaption,div.deleteimg {
+	float: left;
+	clear: left;
+	height: 20px;
+	background-color: rgb(230, 236, 243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	padding: 2px;
+	cursor: pointer;
+	border-radius: 3px;
+	}
+div.makeprofpic>p,div.addcaption>p,div.deleteimg>p {
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 10pt;
+	line-height: 20px;
+	cursor: pointer;
+}
+section.membio {
+	width: 100%;
+	float: left;
+	position: relative;
+	display: block;
+}
+section.membio>p {
+	font-size: 10pt;
+	color: rgb(100,100,100);
+	margin: 20px;
+}
+section.membio>h3 {
+	margin: 10px;
+}
+section.offerings {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+}
+div.openoffer {
+	float: left;
+	position: relative;
+	display: block;
+	height: 20px;
+	width: 120px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 11pt;
+	border-radius: 3px;
+	text-align: center;
+}
+div.openoffer>p {
+	cursor: pointer;
+	line-height: 20px;
+}
+section.chooseoffering {
+	position: absolute;
+	background-color: rgb(80,80,80);
+	background: rgba(80,80,80,0.8);
+	top:56px;
+	left: 15%;
+	width: 70%;
+	display: none;
+}
+img.offering {
+	position: relative;	
+	display: inline;
+	line-height: 110px;
+	vertical-align: middle;
+}
+div.editleftblock {
+	margin: 10px;
+	position: relative;
+	display: block;
+	float: left;
+	width:55%;
+}
+span.close {
+	float: left;
+	width: 100%;
+}
+img.close {
+	position: relative;
+	float: right; 
+	clear: right;
+	cursor: pointer;
+}
+div.thisoffer {
+	text-align: center;
+	float: left;
+	line-height: 110px;
+	width: 110px;
+	height: 110px;
+	border-radius: 5px;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-o-transition: all 0.2s linear;
+	cursor: pointer;
+}
+div.thisoffer:hover {
+	background-color: white;
+}
+div.thisoffer#current {
+	background-color: rgb(230,236,243);
+}
+section.sentiment {
+	margin: 5px;
+	height: 100%;
+	width: 40%;
+}
+section.sentiment>*{
+	margin: 5px;
+}
+section.sentiment>textarea{
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	float: none;
+	clear: none;
+}
+span.offerings {
+	float: left;
+	width: 100%;
+}
+div.thisofferpost {
+	text-align: center;
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-o-transition: all 0.2s linear;
+}
+div.thisofferpost:hover {
+	background-color: rgb(230,236,243);
+}
+
+
+
+div.leaveoffering{
+	position: relative;
+	display: inline;
+	text-align: center;
+	height: 20px;
+	width: 130px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 11pt;
+	border-radius: 3px;
+	float: right;
+	vertical-align: bottom;
+}
+div.leaveoffering>p{
+	line-height: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+img.deloffer {
+	position: absolute;
+	display: block;
+	float: left;
+	cursor: pointer;	
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+}
+span.delconf {
+	float: left;
+	width: 100%;
+	display: none;
+}
+span.delconf>p {
+	display: inline;
+	margin: 15px;
+	cursor: pointer;
+}
+span.delconf>p:hover {
+	text-decoration: underline;
+}
+div.memleftblock {
+	margin-left: 10px;
+	width: 55%;
+	position: relative;
+	float: left;
+	display: block;
+}
+span.offercont {
+	margin-top: 10px;
+	width: 17.05%;
+	position: relative;
+	float: left;
+	height: 200px;
+	margin-left: 5px;
+}
+section.previewmode {
+	position: absolute;
+	left: 6%;
+	top: 5%;
+	background-color: rgb(230,236,243);
+	background-color: rgba(230,236,243,0.8);
+	border-radius: 5px;
+	padding: 10px;
+}
+span.fact {
+	width: 100%;
+	float: left;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+p.key,p.fact {
+	display: inline;
+	margin: 5px;
+}
+p.key {
+	float: left;
+}
+p.fact {
+	float: right;
+}
+p.sent {
+	margin: 5px;
+	font-size: 10pt;
+	color: rgb(100,100,100);
+}
+span.request>textarea {
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	background-color: rgb(230,236,243);
+	width: 230px;
+	float: left;
+	margin: 5px;
+}
+span.request>* {
+	margin: 5px;
+}
+div.sendreq {
+	position: relative;
+	float: left;
+	clear: left;
+	height: 20px;
+	width: 120px;
+	margin: 5px;
+	background-color: rgb(230,236,243);
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	cursor: pointer;
+	font-size: 11pt;
+	border-radius: 3px;
+	text-align: center;
+}
+div.sendreq>p {
+	line-height: 20px;
+	color: black;
+}
+div.canvas {
+	position: relative;
+	display: inline-block;
+	width: 98%;
+	height: 600px;
+	margin: 5px;
+	z-index: 1;
+	background:url('reliquary.jpg') no-repeat left top;
+	border-radius: 5px;
+}
+section.canvas {
+	margin: 10px;
+	margin-top: 40px;
+
+}
+img.canvas {
+	position:absolute;
+	cursor: pointer;
+	padding: 2px;
+}
+img.drag {
+	position: relative;
+	display:inline-block;
+	line-height: 110px;
+	vertical-align: middle;
+}
+section.reliquary {
+	float: left;
+	position: relative;
+
+	width: 850px;
+	background-color: white;
+	border-radius: 5px;
+	margin: 10px;
+	margin-top:40px;
+	margin-right: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+span.reliquary{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+span.items {
+	position: relative;
+	display:inline-block;
+	margin: 10px;
+	height: 430px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	text-align: center;
+	border:solid;
+	border-width: 2px;
+	border-color: rgb(141,177,209);
+	background-color: rgb(230,236,243);
+}
+section.items {
+	float: right;
+	width: 30%;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-left: 0;
+}
+img.clicked {
+	position: absolute;
+	border: solid;
+	border-width: 2px;
+	padding: 0px;
+}
+div.collagedelete {
+	border-radius: 5px;
+	position: relative;
+	float: left;
+	clear: left;
+	background-color: rgb(255,150,219);
+	border:solid;
+	border-width:1px;
+	border-color:rgb(169,0,111);
+	width: 220px;
+	height: 40px;
+	text-align: center;
+	cursor: pointer;
+	margin:10px;
+	margin-top: 0;
+}
+div.collagesave {
+	border-radius: 5px;
+	position: relative;
+	float: right;
+	clear: right;
+	background-color: rgb(230,236,243);
+	border:solid;
+	border-width: 1px;
+	border-color: rgb(141,177,209);
+	width: 220px;
+	height: 40px;
+	text-align: center;
+	cursor: pointer;
+	margin:10px;
+	margin-top: 0;
+}
+div.collagedelete>p{
+	font-size: 14pt;
+	line-height: 40px;
+	cursor: pointer;
+}
+div.collage {
+	float: left;
+}
+div.collagesave>p{
+	font-size: 14pt;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+	
